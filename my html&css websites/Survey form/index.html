@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="page-header">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Please help us improve out site by filling out this short survey!</p>
+    </div>
+    <form id="survey-form" method="post" action="#">
+      <fieldset>
+        <label for="name" id="name-label">Enter your name: 
+          <input id="name" name="name" type="text" placeholder="Name" required></input>
+        </label>
+        <br>
+      <label for="email" id="email-label">Enter your Email: 
+        <input id="email" name="email" type="email" placeholder="example@gmail.com" required></input>
+      </label>
+      <br>
+      <label for="number" id="number-label">Enter a number: 
+        <input id="number" name="number" type="number" min="0" max="2024" placeholder="5"</input>
+      </label>
+      <br>
+      <label for="dropdown">Options: 
+        <select id="dropdown" name="dropdown">
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+        </select>
+      </label>
+      <br>
+      <label for="radio-1">
+        <input id="radio-1" type="radio" class="inline" name="radio options" value="radio-1">Option 1</input>
+      </label>
+      <label for="radio-2">
+        <input id="radio-2" type="radio" class="inline" name="radio options" value="radio-2" class="inline" name="radio options">Option 2</input>
+      </label>
+      <br>
+      <label for="checkbox-1">
+        <input id="checkbox-1" name="checkbox-1" type="checkbox" class="inline" value="checkbox 1">checkbox 1</input>
+      </label>
+      <label for="checkbox-2">
+        <input id="checkbox-2" name="checkbox-2" type="checkbox" class="inline" value="checkbox 2">checkbox 2</input>
+      </label>
+      <label for="checkbox-3">
+        <input id="checkbox-3" name="checkbox-3" type="checkbox" class="inline" value="checkbox 3">checkbox 3</input>
+      </label>
+      <br>
+      <label for="textarea">
+        <textarea id="textarea" name="textarea" placeholder="Additional Comments"></textarea>
+      </label>
+      <br>
+      <input id="submit" type="Submit" value="Submit"></input>
+    </fieldset>
+  </form>
+</body>
+
+<footer>
+</footer>
+
+</html>

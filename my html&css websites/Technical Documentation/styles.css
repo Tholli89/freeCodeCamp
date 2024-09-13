@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  border-right: solid 1px gray;
+}
+#navbar header {
+  font-weight: bold;
+  font-size: 2rem;
+}
+#navbar ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+#navbar ul a, #navbar header {
+  padding: 20px;
+  border-bottom: solid 1px gray;
+}
+main {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70%;
+  height: 100%;
+}
+main section {
+  border-bottom: solid 1px gray;
+}
+#main-doc header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+section p {
+  padding-left: 10px;
+}
+@media (max-width: 768px) {
+  #navbar {
+    display: none;
+  }
+  main {
+    width: 100%;
+  }
+}
+@media (max-width: 1199px) and (min-width: 769px) {
+  #navbar {
+    width: 20%;
+  }
+  main {
+    width: 80%;
+}

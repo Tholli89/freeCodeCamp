@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+#img-div {
+  width: 70%;
+  background-color: white;
+  color: black;
+  margin: 0 auto;
+  padding: 20px;
+}
+#img-div figcaption {
+  padding: 20px;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+#link-info {
+  margin: 50px auto;
+}
+a {
+  color: lightblue;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  background-color: lightblue;
+  color: black;
+  cursor: pointer;
+}
